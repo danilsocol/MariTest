@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Mari.Domain.Enums
 {
-    public class UserRole
+    public enum UserRole
     {
-        
+        Админ,
+        Релиз_Менеджер
     }
 }

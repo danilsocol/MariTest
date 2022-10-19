@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Mari.Domain.Enums
 {
-    public class ReleaseStatus
+    public enum ReleaseStatus
     {
-        
+        Завершен,
+        Запланирован
     }
 }
